@@ -3,7 +3,7 @@ def vehicle_rental(balance, days):
         return "Invalid rental days"
     if days > balance:
         return "Insufficient rental balance"
-    return "Leave request submitted"
+    return "rental days approved"
 
 
 if __name__ == "__main__":
